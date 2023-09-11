@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9b0303;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%; /* ทำให้ Navbar กว้างเท่ากับความกว้างหน้าเว็บ */
+  position: fixed; /* คงอยู่ด้านบนขณะเลื่อนหน้าเว็บ */
+  top: 0; /* ติดอยู่ด้านบน */
+  left: 0; /* ติดอยู่ด้านซ้าย */
+  z-index: 800; /* ความสูงเท่ากับหน้าหลัง */
+}
+
+.logo img {
+  max-height: 40px;
+  margin-right: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  font-size: 18px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search svg {
+  margin-left: 5px;
+  color: #fff;
+  cursor: pointer;
+}

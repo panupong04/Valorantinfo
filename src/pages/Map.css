@@ -1,0 +1,15 @@
+.map-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .rectangle-m {
+    width: 310px;
+    height: 200px;
+    background-color: #fffbfb;
+    padding: 5px;
+    margin: 20px; /* เพิ่มระยะห่างระหว่างช่องสี่เหลี่ยม */
+  }

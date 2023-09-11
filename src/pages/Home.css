@@ -1,0 +1,30 @@
+/* เปลี่ยนพื้นหลังของหน้า Home เป็นสีดำ */
+.body{
+ background-color: black; 
+}
+/* จัดวางแถบค้นหาให้อยู่ด้านล่างของ Navbar */
+.search-bar {
+  left: -600px; /* ปรับค่าตามที่คุณต้องการขยับไปทางซ้าย */
+  position: relative;
+  margin-top: -80px; /* ปรับค่าขึ้นลงตามที่คุณต้องการ */
+}
+
+/* จัดวางเนื้อหาหน้า Home */
+.home-content {
+  padding: 0px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.rectangle-h {
+  width: 150px;
+  height: 80px;
+  background-color: #cbced0;
+  margin: 20px; /* เพิ่มระยะห่างระหว่างช่องสี่เหลี่ยม */
+}
+

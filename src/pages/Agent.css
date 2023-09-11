@@ -1,0 +1,44 @@
+/* Weapon.css */
+
+
+.Agent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding-top: 30px;
+  }
+  
+  .rectangles {
+    width: 600px;
+    background-color: #cbced0;
+    padding: 5px;
+    margin: 30px; /* เพิ่มระยะห่างระหว่างช่องสี่เหลี่ยม */
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 60px;
+    
+  }
+  
+  .frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; /* ทำให้กรอบเต็มหน้าจอ */
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 0; /* ไม่มีขอบ */
+    
+  }
+  
+  .frame p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
